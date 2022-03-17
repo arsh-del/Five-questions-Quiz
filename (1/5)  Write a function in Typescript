@@ -1,0 +1,16 @@
+CheckNumbner(3) //Calling TypeScript Function with parameters 
+
+function CheckNumbner(x){
+     if(x % 2 === 0){
+     console.log("Candy");
+    }
+     if(x % 11 === 0){
+        console.log("bar");
+    }
+      if(x % 22 === 0){
+        console.log("candybar");
+    }
+    else{
+      console.log("Number is: "+x);
+    }
+}
